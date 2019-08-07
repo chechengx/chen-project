@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="DPBFT"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;CMake Files\vcpkg\;CMake Files\vcpkg\scripts\;CMake Files\vcpkg\scripts\buildsystems\;CMake Files\vcpkg\installed\;CMake Files\vcpkg\installed\x86-windows\;CMake Files\vcpkg\installed\x86-windows\share\;CMake Files\vcpkg\installed\x86-windows\share\jsoncpp\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/DPBFT/cmake-build-debug-visual-studio"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\DPBFT\cmake-build-debug-visual-studio\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f D:\DPBFT\cmake-build-debug-visual-studio\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\DPBFT\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\DPBFT\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DPBFT">
+				<Option output="D:/DPBFT/cmake-build-debug-visual-studio/DPBFT.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/DPBFT/cmake-build-debug-visual-studio"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="E:/vcpkg/installed/x86-windows/include"/>
+					<Add directory="E:\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\ATLMFC\include"/>
+					<Add directory="E:\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include"/>
+					<Add directory="E:\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="E:\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="E:\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="E:\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="E:\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\DPBFT\cmake-build-debug-visual-studio\Makefile VERBOSE=1 DPBFT"/>
+					<CompileFile command="nmake /NOLOGO /f D:\DPBFT\cmake-build-debug-visual-studio\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\DPBFT\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\DPBFT\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DPBFT/fast">
+				<Option output="D:/DPBFT/cmake-build-debug-visual-studio/DPBFT.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/DPBFT/cmake-build-debug-visual-studio"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="E:/vcpkg/installed/x86-windows/include"/>
+					<Add directory="E:\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\ATLMFC\include"/>
+					<Add directory="E:\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.22.27905\include"/>
+					<Add directory="E:\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="E:\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="E:\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="E:\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="E:\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\DPBFT\cmake-build-debug-visual-studio\Makefile VERBOSE=1 DPBFT/fast"/>
+					<CompileFile command="nmake /NOLOGO /f D:\DPBFT\cmake-build-debug-visual-studio\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\DPBFT\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\DPBFT\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/DPBFT/cmake-build-debug-visual-studio"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\DPBFT\cmake-build-debug-visual-studio\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f D:\DPBFT\cmake-build-debug-visual-studio\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\DPBFT\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\DPBFT\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/DPBFT/cmake-build-debug-visual-studio"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f D:\DPBFT\cmake-build-debug-visual-studio\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f D:\DPBFT\cmake-build-debug-visual-studio\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f D:\DPBFT\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f D:\DPBFT\cmake-build-debug-visual-studio\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/DPBFT/Client.cpp">
+			<Option target="DPBFT"/>
+		</Unit>
+		<Unit filename="D:/DPBFT/Client.h">
+			<Option target="DPBFT"/>
+		</Unit>
+		<Unit filename="D:/DPBFT/ClientController.cpp">
+			<Option target="DPBFT"/>
+		</Unit>
+		<Unit filename="D:/DPBFT/ClientController.h">
+			<Option target="DPBFT"/>
+		</Unit>
+		<Unit filename="D:/DPBFT/NodeService.cpp">
+			<Option target="DPBFT"/>
+		</Unit>
+		<Unit filename="D:/DPBFT/NodeService.h">
+			<Option target="DPBFT"/>
+		</Unit>
+		<Unit filename="D:/DPBFT/Request.cpp">
+			<Option target="DPBFT"/>
+		</Unit>
+		<Unit filename="D:/DPBFT/Request.h">
+			<Option target="DPBFT"/>
+		</Unit>
+		<Unit filename="D:/DPBFT/config/Config.cpp">
+			<Option target="DPBFT"/>
+		</Unit>
+		<Unit filename="D:/DPBFT/config/Config.h">
+			<Option target="DPBFT"/>
+		</Unit>
+		<Unit filename="D:/DPBFT/log/logger.cpp">
+			<Option target="DPBFT"/>
+		</Unit>
+		<Unit filename="D:/DPBFT/log/logger.h">
+			<Option target="DPBFT"/>
+		</Unit>
+		<Unit filename="D:/DPBFT/main.cpp">
+			<Option target="DPBFT"/>
+		</Unit>
+		<Unit filename="D:/DPBFT/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/DPBFT/vcpkg/scripts/buildsystems/vcpkg.cmake">
+			<Option virtualFolder="CMake Files\vcpkg\scripts\buildsystems\"/>
+		</Unit>
+		<Unit filename="D:/DPBFT/vcpkg/installed/x86-windows/share/jsoncpp/jsoncppConfig-debug.cmake">
+			<Option virtualFolder="CMake Files\vcpkg\installed\x86-windows\share\jsoncpp\"/>
+		</Unit>
+		<Unit filename="D:/DPBFT/vcpkg/installed/x86-windows/share/jsoncpp/jsoncppConfig-release.cmake">
+			<Option virtualFolder="CMake Files\vcpkg\installed\x86-windows\share\jsoncpp\"/>
+		</Unit>
+		<Unit filename="D:/DPBFT/vcpkg/installed/x86-windows/share/jsoncpp/jsoncppConfig.cmake">
+			<Option virtualFolder="CMake Files\vcpkg\installed\x86-windows\share\jsoncpp\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
